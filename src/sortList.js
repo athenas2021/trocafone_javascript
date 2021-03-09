@@ -5,7 +5,7 @@
  * @param array list
  */
 function sortList(list){
-  if (!isNaN(list[0]){
+  if (!isNaN(list[0])){
     list.sort(function(a, b) {
     return a - b;
     });
